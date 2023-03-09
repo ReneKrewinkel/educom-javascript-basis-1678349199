@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            const name = "Bootleg bob"
+
+            /// Lengtn of the string
+            const length = name.length
+            
+            /// Case Manipulation
+            const lowerCase = name.toLowerCase()
+            const upperCase = name.toUpperCase()
+
+            /// Replace (only 1)
+            const replaced = name.replace('o', 'a')
+
+            ///All with regular expression
+            const replaceAll = name.replaceAll('o', 'a')
+
+            ///Substring
+            const substring = name.substring(2,8)
+
+            /// Array
+            const toArray = name.split('')
+
+            console.log({
+                length: length,
+                lowerCase: lowerCase,
+                upperCase: upperCase,
+                replaced: replaced,
+                replaceAll: replaceAll,
+                toArray: toArray,
+                substring: substring
+            })
+        </script>
+    </head>
+</html>
